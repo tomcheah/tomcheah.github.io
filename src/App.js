@@ -1,36 +1,29 @@
 import React, { Component } from 'react';
-import headerImage from './images/bigbrother.jpg'
-import logo from './logo.svg'
-import './App.css';
+import LandingPage from '@pages/LandingPage';
+import AboutPage from '@pages/AboutPage';
+import PortfolioPage from '@pages/PortfolioPage';
+import ParallaxBackground from '@components/ParallaxBackground';
+import ScrollTop from '@components/ScrollTop';
+import ThemeSwitcher from '@components/ThemeSwitcher';
+import Browser from '@components/Browser';
+import Footer from '@components/Footer';
 
 class App extends Component {
 
-
   render() {
     return (
-      <div className="Website">
-        <div className="Header">
-          <img className="headerImage" src={require('./images/bigbrother.jpg')} />        
-          <img className="profilePicture" src={require('./images/profilepic.jpg')}/>
-          <p className="headerBlurb">
-            Hi. My Name is Tom!
-          </p>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
+      <div className="dev-landing-page">
+        <ThemeSwitcher>
+          <Browser except firefox>
+            <ParallaxBackground />
+          </Browser>
+          <LandingPage />
+          <AboutPage />
+          <PortfolioPage />
+          <ScrollTop />
+          <Footer />
+        </ThemeSwitcher>
       </div>
-
-
-
     );
   }
 }
