@@ -31,7 +31,7 @@ const AboutPage = (props, context) => {
               When I'm not coding, I enjoy spending my time dancing, cooking, and gaming. I love combining my two {' '} <span className="highlight">passions</span>, dance and tech, through creative projects. Developing software in student organizations for real users has been one of my highlights of college.  
             </p>
             <p>
-              I'll be interning at SAP in Spring 2019!
+              I'll be working at SAP as a Software Developer Intern in Summer 2019!
             </p>
             <p>
               My resume can be found <a href="https://drive.google.com/file/d/1gI6hdS57pfD_1hUQyA77Fbb6aJ1J042-/view?usp=sharing" target="_blank">here</a>.
