@@ -28,7 +28,7 @@ const AboutPage = (props, context) => {
               Hi! My name is Tom Cheah and I'm a third year Electrical Engineering and Computer Science major at {' '} <span className="highlight">UC Berkeley</span>.
             </p>
             <p>
-              When I'm not coding, I enjoy spending my time dancing, cooking, and gaming. I love combining my two {' '} <span className="highlight">passions</span>, dance and tech, through creative projects. Developing software in student organizations for real users has been one of my highlights of college.  
+              When I'm not coding, I enjoy spending my time dancing, cooking, and gaming. I love combining my two {' '} <span className="highlight">passions</span>, dance and tech, through creative projects. Developing software in student organizations for real users has been one of my highlights of college.
             </p>
             <p>
               I'll be working at {' '} <span className="highlight">Amazon</span> as a Software Developer Intern in Summer 2020 and at {' '} <span className="highlight">Facebook</span> as a Production Engineer Intern in Fall 2020! 
